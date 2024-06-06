@@ -39,15 +39,6 @@ To use this project:
     ```
     python3 streamlit run App.py
     ```
-7. To stop the running application:
-   - Get the process ID of the running process:
-     ```
-     ps -ef 
-     ```
-   - Kill the process using its ID:
-     ```
-     kill [PROCESS_ID]
-     ```
 
 
 
