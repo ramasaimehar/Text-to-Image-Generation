@@ -1,15 +1,6 @@
 # Text-to-Image-Generation
 This project is a Streamlit web app for generating images using OpenAI's DALL·E 2 model. Users input a text prompt and select an image size (256x256, 512x512, 1024x1024). Upon clicking "See Magic🪄", the app generates and displays the image. Users can download the image via a provided download button. The app includes custom CSS for improved UI.
 
-# DALL·E 2 Image Generator Python App
-
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-360/)
-
-## [Watch the Tutorial for this Project](https://youtu.be/Ihcb3Lg4twI)
-
-![YouTube Thumbnail](https://github.com/Spidy20/DALLE_Image_Generator/blob/master/yt_thumb.jpg)
-
 ## Overview
 
 This project demonstrates the creation of a "Text to Image" application using Python, OpenAI, and Streamlit. The following technologies and services are used:
@@ -39,14 +30,14 @@ To use this project:
     ```
     pip install -r requirements.txt
     ```
-4. Set the `OPENAI_API_KEY` as a global variable in your environment (replace `-------API KEY--------` with your actual API key):
+4. Set the `OPENAI_API_KEY` (replace `-------API KEY--------` with your actual API key):
     ```
-    export OPENAI_API_KEY="-------API KEY--------"
+   OPENAI_API_KEY="-------API KEY--------"
     ```
 5. The `App.py` file contains the Streamlit application.
 6. Run the script with the following command:
     ```
-    nohup python3 streamlit run App.py --server.port 80
+    python3 streamlit run App.py
     ```
 7. To stop the running application:
    - Get the process ID of the running process:
@@ -58,17 +49,6 @@ To use this project:
      kill [PROCESS_ID]
      ```
 
-For a more detailed explanation of this project, refer to the tutorial on the Machine Learning Hub YouTube channel.
 
-## Screenshots
 
-<img src="https://github.com/Spidy20/DALLE_Image_Generator/blob/master/sc1.jpg" width="270" height="500">
 
-## Support
-
-If you find this project helpful, consider supporting me:
-
-- [Buy me a Coffee☕](https://www.buymeacoffee.com/spidy20)
-- [Donate via PayPal](https://www.paypal.me/spidy1820) (It will inspire me to work on more projects)
-
-Feel free to follow me and star⭐ this repository!
